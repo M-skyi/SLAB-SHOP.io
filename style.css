@@ -149,7 +149,7 @@ header{
 
 
 
-@media ( max-width: 620px ){
+@media ( max-width: 500px ){
     .col-sm-12{
         flex:0 0 100%;
         max-width: 100%; 
@@ -179,29 +179,60 @@ header{
         margin-left: 20px;
     }
     .col-sm-3 {
-        flex: 0 0 100%;
+        flex: 0 0 80%;
         max-width: 80%;
     }
 }
-@media ( min-width: 426px ) {
+@media ( min-width: 501px ) and ( max-width: 650px ) {
 
     .container{
         max-width: 100%;
     }
     .col-sm-3 {
-        flex: 0 0 100%;
-        max-width: 43%;
+        flex: 0 0 39%;
+        max-width: 39%;
     }
-    .col-sm-12 {
-        flex: 19 0 122%;
-        max-width: 42%;
+    
+    .button__header{
+        margin-left: 18px;
     }
-    .col-sm-1 {
-        flex: 0 0 100%;
-        max-width: 14%;
+    .col-sm-12{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-xl-2 {
+        flex: 0 0 10.66%;
+        max-width: 10.66%;
     }
     .nav__header{
-        margin: 0px;
+        margin-left: 21px;
+        overflow: scroll;
+    }
+}
+@media (min-width: 651px) and (max-width: 767px) {
+    
+    .container{
+        max-width: 650px;
+    }
+    .col-sm-3 {
+        flex: 0 0 39%;
+        max-width: 39%;
+    }
+    
+    .button__header{
+        margin-left: 18px;
+    }
+    .col-sm-12{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-xl-2 {
+        flex: 0 0 10.66%;
+        max-width: 10.66%;
+    }
+    .nav__header{
+        margin-left: 21px;
+        overflow: scroll;
     }
 }
 
@@ -210,12 +241,12 @@ header{
       max-width: 720px;
     }
     .col-md-6{
-        flex:0 0 50%;
-        max-width: 50%;
+        flex: 0 0 55%;
+        max-width: 55%;
     }
     .col-md-5{
-        flex:0 0 41.66%;
-        max-width: 41.66%; 
+        flex: 0 0 35.66%;
+        max-width: 35.66%;
     }
     .col-md-1{
         flex:0 0 8.33%;
@@ -224,6 +255,12 @@ header{
     .nav__header{
         margin-left: 50px;
     } 
+    .button__header{
+        margin-left: 45px;
+    }
+    .logo__header{
+        margin-left: 10px;
+    }
     
 }
 @media ( min-width: 992px ){
@@ -245,6 +282,9 @@ header{
     .button__header{
         margin-left: 0px;
     }
+    .button__header{
+        margin-left: 20px;
+    }
     
 }
 @media ( min-width: 1200px ){
@@ -261,7 +301,10 @@ header{
         max-width: 8.33%;
     }
     .container{
-      max-width: 1140px;
+      max-width: 100%;
+    }
+    .button__header{
+        margin-left: 70px;
     }
     
 }
