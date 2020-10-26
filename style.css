@@ -324,8 +324,16 @@ header{
         margin-left: 21px;
         overflow: scroll;
     }
-    .hedline__img{
-        display: none;
+    .hedline__img {
+        position: relative;
+        bottom: 158px;
+        left: 252px;
+    }
+    .hedline__img img {
+        position: relative;
+        bottom: -22px;
+        left: -2px;
+        width: 381px;
     }
 }
 
