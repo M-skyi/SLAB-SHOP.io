@@ -242,7 +242,7 @@ header{
     .headline__header__content{
         text-align: center;
         padding: 10px;
-        font-size: 17px;
+        font-size: 15px;
         line-height: 22px;
     }
     .headline__header__button{
@@ -287,6 +287,17 @@ header{
         margin-left: 21px;
         overflow: scroll;
     }
+    .hedline__img{
+        display: none;
+    }
+    .content__header{
+       max-width: 100%;
+       text-align: center;
+    }
+    .headline__header{
+       max-width: 100%;
+        text-align: center;
+    }
 }
 @media (min-width: 651px) and (max-width: 767px) {
     
@@ -312,6 +323,9 @@ header{
     .nav__header{
         margin-left: 21px;
         overflow: scroll;
+    }
+    .hedline__img{
+        display: none;
     }
 }
 
