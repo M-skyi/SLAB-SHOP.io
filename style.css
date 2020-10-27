@@ -382,6 +382,15 @@ header{
     .logo__header{
         margin-left: 10px;
     }
+    .hedline__img {
+        position: relative;
+        bottom: 194px;
+        left: 269px;
+        max-width: 74%;
+    }
+    .hedline__img img {
+        width: 459px;
+    }
     
 }
 @media ( min-width: 992px ){
@@ -406,6 +415,15 @@ header{
     .button__header{
         margin-left: 20px;
     }
+    .hedline__img {
+        position: relative;
+        bottom: 259px;
+        left: 304px;
+        max-width: 100%;
+    }
+    .hedline__img img {
+      width: 647px;
+    }
     
 }
 @media ( min-width: 1200px ){
@@ -426,6 +444,14 @@ header{
     }
     .button__header{
         margin-left: 70px;
+    }
+    .hedline__img{
+        position: relative;
+        bottom: 380px;
+        left: 444px;
+    }
+    .hedline__img{
+        width: 885px;
     }
     
 }
