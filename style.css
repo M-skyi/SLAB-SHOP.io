@@ -210,10 +210,6 @@ header {
     text-align: center;
 }
 
-/* .content {
-    height: 545px;
-} */
-
 .content-center {
     display: flex;
     justify-content: center;
@@ -538,6 +534,7 @@ h2 {
     }
     .block{
         margin-top: 17px;
+        border-radius: 60px;
     }
     .mobile-content{
         line-height: 22px;
