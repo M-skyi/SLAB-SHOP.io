@@ -655,6 +655,10 @@ h2 {
         flex: 0 0 10.66%;
         max-width: 10.66%;
     }
+    .col-xl-8 {
+        flex: 0 0 52.66%;
+        max-width: 52.66%;
+    }
 
     .nav-header {
         margin-left: 21px;
