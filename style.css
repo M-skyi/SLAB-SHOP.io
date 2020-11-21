@@ -642,8 +642,8 @@ h2 {
     }
 
     .col-sm-12 {
-        flex: 0 0 50%;
-        max-width: 50%;
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 
     .col-sm-6 {
@@ -665,10 +665,6 @@ h2 {
         margin-left: 20px;
         margin-bottom: 30px;
         margin-top: 25px;
-    }
-
-    header {
-        height: 665px;
     }
 
     .headline-content {
@@ -696,6 +692,15 @@ h2 {
     .block-column{
         flex-direction: column;
         justify-content: center;
+    }
+    .second-img{
+        display: none;
+    }
+    .second-headline,.headline-content{
+        width: 100%;
+    }
+    .block-we-are{
+        margin-left: -576px;
     }
 
 
