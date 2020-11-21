@@ -499,7 +499,7 @@ h2 {
     }
 
     .second-headline {
-        margin-top: -340px;
+        margin-top: 50px;
         text-align: center;
         margin-left: 0px;
         font-size: 30px;
@@ -518,7 +518,6 @@ h2 {
         display: flex;
         flex-direction: column;
         margin-bottom: 27px;
-        width: 90%;
     }
     #section-1{
         height: 385px;
@@ -565,11 +564,6 @@ h2 {
         margin-left: 18px;
     }
 
-    .col-sm-12 {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-
     .col-xl-2 {
         flex: 0 0 10.66%;
         max-width: 10.66%;
@@ -577,6 +571,10 @@ h2 {
     .col-md-6{
         flex: 0 0 50%;
         max-width: 50%;
+    }
+    .col-sm-12{
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 
     .nav-header {
@@ -621,9 +619,6 @@ h2 {
     .second-headline,.headline-content{
         width: 100%;
     }
-    .block-we-are{
-        margin-left: -291px;
-    }
 }
 
 @media (min-width: 651px) and (max-width: 767px) {
@@ -650,14 +645,18 @@ h2 {
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .col-lg-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 
     .col-xl-2 {
         flex: 0 0 10.66%;
         max-width: 10.66%;
     }
     .col-xl-8 {
-        flex: 0 0 52.66%;
-        max-width: 52.66%;
+        flex: 0 0 52%;
+        max-width: 52%;
     }
 
     .nav-header {
@@ -704,7 +703,7 @@ h2 {
         width: 100%;
     }
     .block-we-are{
-        margin-left: -576px;
+        margin-left: 65px;
     }
 
 
@@ -725,14 +724,27 @@ h2 {
         max-width: 83.33%;
     }
 
-    .col-md-6 {
+    .col-md-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* .col-md-6 {
         flex: 0 0 50%;
         max-width: 50%;
+    } */
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 
     .col-md-5 {
         flex: 0 0 35.66%;
         max-width: 35.66%;
+    }
+    .col-xl-8 {
+        flex: 0 0 56.66%;
+        max-width: 56.66%;
     }
 
     .col-md-1 {
@@ -873,6 +885,10 @@ h2 {
         flex: 0 0 50%;
         max-width: 50%;
     }
+    .col-md-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 
     .container {
         max-width: 100%;
@@ -914,6 +930,9 @@ h2 {
     }
     .content {
         height: 545px;
+    }
+    .block-we-are{
+        margin-left: 170px;
     }
 
 }
