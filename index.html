@@ -14,14 +14,14 @@
 <body>
     <header>
         <div class="container top-header">
-            <div class="row">
-                <div class="col-xl-2 col-sm-1 col-md-1 header-logo">
-                    <a class="logo__header" href="#">
+            <div class="row mobile-menu-position">
+                <div class="col-xl-2 col-sm-4 col-md-1 header-logo">
+                    <a class="logo-header" href="#">
                         <img src="img/Logo.png" alt="Logo">
                     </a>
                 </div>
-                <div class="col-xl-8 col-lg-6 col-md-6">
-                    <div class="nav-header">
+                <div class="col-xl-8 col-lg-6 col-md-6 col-sm-2  ">
+                    <div class="nav-header hidden-menu ">
                         <ul class="list-header">
                             <li><a href="">About</a></li>
                             <li><a href="">Help</a></li>
@@ -30,9 +30,18 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3 col-sm-3 col-md-5">
+                <div class="col-xl-3 col-sm-3 col-md-5 col-sm-5 col-xl-5 ">
                     <div class="button-header">
                         <button>Request Demo</button>
+                    </div>
+                </div>
+                <div class="col-sm-1">
+                    <div class="block-mobile-menu">
+                        <div class="nav-mobile-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -66,7 +75,7 @@
         <section id="section-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-5 col-md-6 col-sm-12 col-md-12">
+                    <div class="col-xl-5 col-md-6 col-sm-12 col-md-12 mobile-style">
                         <div class="block-color">
                             <img class="second-img" src="img/image2.png" alt="">
                             <div class="block-we-are">
@@ -158,6 +167,7 @@
                 </div>
         </section>
     </div>
+    <script src="app.js" ></script>
 </body>
 
 </html>
