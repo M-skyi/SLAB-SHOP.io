@@ -405,6 +405,30 @@ h2 {
     line-height: 130%;
 }
 
+.block-slider {
+    width: 100%;
+    height: 709px;
+    background: #9C69E2;
+    border-radius: 50px;
+    margin-top: 150px;
+}
+
+.headline-testimonials {
+    font-size: 40px;
+    margin-top: 109px;
+    margin-left: 94px;
+    color: #ffffff;
+}
+
+.slider-block>div {
+
+    font-size: 50px;
+    text-align: center;
+    padding: 150px 0;
+    color: #ffffff;
+
+}
+
 
 
 
@@ -552,6 +576,34 @@ h2 {
 
     .fourth-img-background {
         background-position: top 146px right -13px, top 294px right 18px, right;
+    }
+
+    .slider-block {
+        width: 100%;
+        height: 709px;
+        background: #9C69E2;
+        border-radius: 50px;
+    }
+    .headline-testimonials {
+        font-size: 40px;
+        margin-top: 32px;
+        margin-left: 34px;
+        color: #ffffff;
+    }
+    .slick-next{
+        right: 0px;
+    }
+    .slick-prev {
+        left: 0px;
+    }
+    .slider{
+        margin: 150px;
+    }
+    .block-slider {
+        width: 100%;
+        background: #9C69E2;
+        border-radius: 50px;
+        margin-top: 35px;
     }
 }
 

@@ -16,3 +16,10 @@ function activeMenu() {
     }
 
 }
+
+$(".slider-block").slick({
+    dots:true,
+    arrows:true,
+    autoplay:false,
+  
+  })
