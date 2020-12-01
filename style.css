@@ -429,6 +429,33 @@ h2 {
 
 }
 
+.line{
+    background-color: rgb(156,105,226,1);
+    margin-top: 150px;
+    height: 3px;
+}
+ .learn-more button{
+    background: #F063B8;
+    border-radius: 50px;
+    width: 170px;
+    height: 60px;
+    font-size: 18px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+.buttons-footer{
+    display: flex;
+    margin-top: 121px;
+    justify-content: flex-end;
+}
+.learn-more button:hover{
+    background-color: #ffffff;
+    color:#F063B8 ;
+    border: 2px solid #F063B8 ;
+}
+
+
 
 
 
@@ -786,7 +813,7 @@ h2 {
     }
 
     .block-mobile-menu {
-        margin-top: 15px;
+        margin-top: 13px;
         margin-left: 71px;
     }
 
@@ -1046,6 +1073,10 @@ h2 {
     .headline-features {
         margin-bottom: 50px;
     }
+    .headline-footer{
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
 
 }
 
@@ -1192,4 +1223,5 @@ h2 {
     .headline-features {
         margin-bottom: 20px;
     }
+    
 }
