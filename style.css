@@ -584,21 +584,26 @@ h2 {
         background: #9C69E2;
         border-radius: 50px;
     }
+
     .headline-testimonials {
         font-size: 40px;
         margin-top: 32px;
         margin-left: 34px;
         color: #ffffff;
     }
-    .slick-next{
+
+    .slick-next {
         right: 0px;
     }
+
     .slick-prev {
         left: 0px;
     }
-    .slider{
+
+    .slider {
         margin: 150px;
     }
+
     .block-slider {
         width: 100%;
         background: #9C69E2;
@@ -778,6 +783,11 @@ h2 {
 
     .block-we-are {
         margin-left: 65px;
+    }
+
+    .block-mobile-menu {
+        margin-top: 15px;
+        margin-left: 71px;
     }
 
 
