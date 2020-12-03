@@ -454,7 +454,133 @@ h2 {
     color:#F063B8 ;
     border: 2px solid #F063B8 ;
 }
+.footer-logo-text{
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 160%;
+color: #212353;
+margin-left: 20px;
+}
+.footer-logo{
+    margin-top: 153px;
+}
+.addres{
+margin-top: 67px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 180%;
+letter-spacing: 0.01em;
+margin-bottom: 10px;
+}
+.phone-email{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 180%;
+letter-spacing: 0.01em;
+}
+.registration-company{
+    margin-top: 118px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    margin-bottom: 96px;
+}
+.footer-navigation-headline{
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 160%;
+color: #212353;
+margin-bottom: 30px;
+}
+.container-footer-navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 30%; */
+}
+.footer-navigation-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-navigation-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 165px;
+}
 
+.footer-navigation-list li{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 250%;
+    color: #212353;
+}
+.footer-navigation-list li a{
+    text-decoration: none;
+    color: #212353;
+}
+.list-position{
+    margin-right: 80px;
+}
+.social-position{
+    margin-left: 75px;
+}
+.container-footer-social{
+    margin-top: 165px;
+}
+.icon-social{
+    height: 50px;
+    width: 50px;
+    margin: 0px 8px;
+}
+.container-icon-social{
+    display: flex;
+    margin-left: 75px;
+}
+.background-social{
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-image: url(img/Ellipse\ 47.png);
+    text-align: center;
+    line-height: 56px;
+}
+.background-message{
+    height: 60px;
+    width: 60px;
+    background-image: url(img/Ellipse\ 68.png);
+    margin-top: 106px;
+}
+.container-footer-message{
+    display: flex;
+    justify-content: flex-end;
+}
+.content-message{
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-image: url(img/Rectangle\ 42.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+}
+.content-message img{
+    margin-bottom: 3px;
+
+}
 
 
 
