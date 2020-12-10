@@ -111,11 +111,6 @@ body {
     flex: 0 0 50%;
     max-width: 50%;
 }
-.col-sm-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-}
-
 
 #section-1 {
     background-color: #a4cecb1c;
@@ -793,16 +788,13 @@ margin-bottom: 30px;
     .header-logo.footer-logo {
         margin-top: 30px;
     }
-    .col-sm-6 {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
     .list-position {
         margin-right: 0px;
     }
     .flex-row{
         display: flex;
         width: 100%;
+        justify-content: space-around;
     }
     .footer-navigation-right {
         margin-top: 28px;
@@ -841,7 +833,10 @@ margin-bottom: 30px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    .headline-features {
+        text-align: center;
     }
+    
 }
 
 @media (min-width: 501px) and (max-width: 650px) {
