@@ -111,6 +111,10 @@ body {
     flex: 0 0 50%;
     max-width: 50%;
 }
+.col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
 
 
 #section-1 {
@@ -763,6 +767,81 @@ margin-bottom: 30px;
         border-radius: 50px;
         margin-top: 35px;
     }
+    .headline-footer,.buttons-footer{
+        margin-top: 20px;
+    }
+    .button-lern-more-footer button{
+        font-size: 15px;
+        height: 40px;
+        width: 100px;
+        margin: 0px 10px;
+    }
+    .button-lern-more-footer {
+        line-height: 62px;
+    }
+    .buttons-footer button{
+        margin: 0px 20px;
+    }
+    .button-request-footer button{
+        background-color: #80808054;
+        height: 33px;
+        font-size: 15px;
+    }
+    .addres{
+        margin-top: 15px;
+    }
+    .header-logo.footer-logo {
+        margin-top: 30px;
+    }
+    .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .list-position {
+        margin-right: 0px;
+    }
+    .flex-row{
+        display: flex;
+        width: 100%;
+    }
+    .footer-navigation-right {
+        margin-top: 28px;
+    }
+    .footer-navigation-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-footer-social {
+        margin-top: 23px;
+    }
+    .social-position {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .container-icon-social {
+        display: flex;
+        margin-left: 0px;
+    }
+    .background-message {
+        height: 60px;
+        width: 60px;
+        background-image: url(img/Ellipse\ 68.png);
+        margin-top: 0px;
+    }
+    .registration-company {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container-footer-message {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    }
 }
 
 @media (min-width: 501px) and (max-width: 650px) {
@@ -1120,6 +1199,10 @@ margin-bottom: 30px;
 
     .headline-features {
         margin-bottom: 40px;
+    }
+    .flex-row{
+        display: contents;
+       
     }
 }
 
