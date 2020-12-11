@@ -1059,6 +1059,14 @@ margin-bottom: 30px;
         flex: 0 0 8.33%;
         max-width: 8.33%;
     }
+    .col-md-5 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-md-2 {
+        flex: 0 0 16.66%;
+        max-width: 16.66%;
+    }
 
     .nav-header {
         margin-left: 50px;
@@ -1125,6 +1133,23 @@ margin-bottom: 30px;
     .headline-features {
         margin-bottom: 30px;
     }
+    .footer-navigation-right {
+        align-items: flex-start;
+        
+    }
+    .container-icon-social {
+        display: flex;
+        margin-left: 22px;
+        flex-direction: column;
+    }
+    .icon-social {
+        height: 50px;
+        width: 50px;
+        margin: 5px 8px;
+    }
+    .social-position {
+        margin-left: 0px;
+    }
 
 }
 
@@ -1132,6 +1157,17 @@ margin-bottom: 30px;
     .col-xl-8 {
         flex: 0 0 66.66%;
         max-width: 66.66%;
+    }
+    .container-icon-social {
+        display: flex;
+        margin-left: 34px;
+        flex-direction: row;
+    }
+    .footer-navigation-right {
+        align-items: center;
+    }
+    .social-position {
+        margin-left: 75px;
     }
 
     .col-xl-3 {
