@@ -428,12 +428,13 @@ h2 {
 
 }
 
-.line{
-    background-color: rgb(156,105,226,1);
+.line {
+    background-color: rgb(156, 105, 226, 1);
     margin-top: 150px;
     height: 3px;
 }
- .learn-more button{
+
+.learn-more button {
     background: #F063B8;
     border-radius: 50px;
     width: 170px;
@@ -443,44 +444,51 @@ h2 {
     outline: none;
     border: none;
 }
-.buttons-footer{
+
+.buttons-footer {
     display: flex;
     margin-top: 121px;
     justify-content: flex-end;
 }
-.learn-more button:hover{
+
+.learn-more button:hover {
     background-color: #ffffff;
-    color:#F063B8 ;
-    border: 2px solid #F063B8 ;
+    color: #F063B8;
+    border: 2px solid #F063B8;
 }
-.footer-logo-text{
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 160%;
-color: #212353;
-margin-left: 20px;
+
+.footer-logo-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 160%;
+    color: #212353;
+    margin-left: 20px;
 }
-.footer-logo{
+
+.footer-logo {
     margin-top: 153px;
 }
-.addres{
-margin-top: 67px;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 180%;
-letter-spacing: 0.01em;
-margin-bottom: 10px;
+
+.addres {
+    margin-top: 67px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    margin-bottom: 10px;
 }
-.phone-email{
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 180%;
-letter-spacing: 0.01em;
+
+.phone-email {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
 }
-.registration-company{
+
+.registration-company {
     margin-top: 118px;
     font-style: normal;
     font-weight: normal;
@@ -491,62 +499,73 @@ letter-spacing: 0.01em;
     letter-spacing: 0.01em;
     margin-bottom: 96px;
 }
-.footer-navigation-headline{
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 160%;
-color: #212353;
-margin-bottom: 30px;
+
+.footer-navigation-headline {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+    margin-bottom: 30px;
 }
-.container-footer-navigation{
+
+.container-footer-navigation {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     /* width: 30%; */
 }
-.footer-navigation-list{
+
+.footer-navigation-list {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.footer-navigation-right{
+
+.footer-navigation-right {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     margin-top: 165px;
 }
 
-.footer-navigation-list li{
+.footer-navigation-list li {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 250%;
     color: #212353;
 }
-.footer-navigation-list li a{
+
+.footer-navigation-list li a {
     text-decoration: none;
     color: #212353;
 }
-.list-position{
+
+.list-position {
     margin-right: 80px;
 }
-.social-position{
+
+.social-position {
     margin-left: 75px;
 }
-.container-footer-social{
+
+.container-footer-social {
     margin-top: 165px;
 }
-.icon-social{
+
+.icon-social {
     height: 50px;
     width: 50px;
     margin: 0px 8px;
 }
-.container-icon-social{
+
+.container-icon-social {
     display: flex;
     margin-left: 75px;
 }
-.background-social{
+
+.background-social {
     display: block;
     height: 50px;
     width: 50px;
@@ -554,17 +573,20 @@ margin-bottom: 30px;
     text-align: center;
     line-height: 56px;
 }
-.background-message{
+
+.background-message {
     height: 60px;
     width: 60px;
     background-image: url(img/Ellipse\ 68.png);
     margin-top: 106px;
 }
-.container-footer-message{
+
+.container-footer-message {
     display: flex;
     justify-content: flex-end;
 }
-.content-message{
+
+.content-message {
     display: block;
     height: 60px;
     width: 60px;
@@ -576,7 +598,8 @@ margin-bottom: 30px;
     line-height: 60px;
     text-decoration: none;
 }
-.content-message img{
+
+.content-message img {
     margin-bottom: 3px;
 
 }
@@ -762,81 +785,101 @@ margin-bottom: 30px;
         border-radius: 50px;
         margin-top: 35px;
     }
-    .headline-footer,.buttons-footer{
+
+    .headline-footer,
+    .buttons-footer {
         margin-top: 20px;
     }
-    .button-lern-more-footer button{
+
+    .button-lern-more-footer button {
         font-size: 15px;
         height: 40px;
         width: 100px;
         margin: 0px 10px;
     }
+
     .button-lern-more-footer {
         line-height: 62px;
     }
-    .buttons-footer button{
+
+    .buttons-footer button {
         margin: 0px 20px;
     }
-    .button-request-footer button{
+
+    .button-request-footer button {
         background-color: #80808054;
         height: 33px;
         font-size: 15px;
     }
-    .addres{
+
+    .addres {
         margin-top: 15px;
     }
+
     .header-logo.footer-logo {
         margin-top: 30px;
     }
+
     .list-position {
         margin-right: 0px;
     }
-    .flex-row{
+
+    .flex-row {
         display: flex;
         width: 100%;
         justify-content: space-around;
     }
+
     .footer-navigation-right {
         margin-top: 28px;
     }
+
     .footer-navigation-right {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .container-footer-social {
         margin-top: 23px;
     }
+
     .social-position {
         text-align: center;
         margin-left: 0px;
     }
+
     .container-icon-social {
         display: flex;
         margin-left: 0px;
     }
+
     .background-message {
         height: 60px;
         width: 60px;
         background-image: url(img/Ellipse\ 68.png);
         margin-top: 0px;
     }
+
     .registration-company {
         margin-top: 0px;
         margin-bottom: 20px;
     }
-    .reverse{
+
+    .reverse {
         display: flex;
         flex-direction: column-reverse;
     }
+
     .container-footer-message {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
     .headline-features {
         text-align: center;
     }
-    
+
 }
 
 @media (min-width: 501px) and (max-width: 650px) {
@@ -1059,13 +1102,20 @@ margin-bottom: 30px;
         flex: 0 0 8.33%;
         max-width: 8.33%;
     }
+
     .col-md-5 {
         flex: 0 0 50%;
         max-width: 50%;
     }
+
     .col-md-2 {
-        flex: 0 0 16.66%;
-        max-width: 16.66%;
+        flex: 0 0 23%;
+        max-width: 23%;
+    }
+
+    .col-xl-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
     }
 
     .nav-header {
@@ -1133,23 +1183,78 @@ margin-bottom: 30px;
     .headline-features {
         margin-bottom: 30px;
     }
+
     .footer-navigation-right {
-        align-items: flex-start;
-        
+        align-items: center;
+
     }
+
     .container-icon-social {
         display: flex;
         margin-left: 22px;
         flex-direction: column;
     }
+
     .icon-social {
         height: 50px;
         width: 50px;
         margin: 5px 8px;
     }
+
     .social-position {
         margin-left: 0px;
     }
+
+    .col-lg-4 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+
+    .button-lern-more-footer button {
+        font-size: 15px;
+        height: 40px;
+        width: 100px;
+        margin: 0px 10px;
+    }
+
+    .button-request-footer button {
+        background-color: #80808054;
+        height: 39px;
+        font-size: 15px;
+        width: 100px;
+        font-size: 13px;
+        text-indent: 0;
+    }
+
+    .buttons-footer {
+        display: flex;
+        margin-top: 60px;
+        justify-content: flex-end;
+    }
+
+    .container-footer-social {
+        margin-top: 76px;
+    }
+
+    .footer-navigation-right {
+        margin-top: 78px;
+    }
+
+    .footer-logo {
+        margin-top: 70px;
+    }
+
+    .registration-company {
+        margin-top: 51px;
+        margin-bottom: 35px;
+    }
+
+    .background-message {
+        margin-top: 40px;
+        margin-right: 28px;
+    }
+
+
 
 }
 
@@ -1158,14 +1263,17 @@ margin-bottom: 30px;
         flex: 0 0 66.66%;
         max-width: 66.66%;
     }
+
     .container-icon-social {
         display: flex;
         margin-left: 34px;
         flex-direction: row;
     }
+
     .footer-navigation-right {
         align-items: center;
     }
+
     .social-position {
         margin-left: 75px;
     }
@@ -1231,9 +1339,10 @@ margin-bottom: 30px;
     .headline-features {
         margin-bottom: 40px;
     }
-    .flex-row{
+
+    .flex-row {
         display: contents;
-       
+
     }
 }
 
@@ -1313,7 +1422,8 @@ margin-bottom: 30px;
     .headline-features {
         margin-bottom: 50px;
     }
-    .headline-footer{
+
+    .headline-footer {
         margin-top: 100px;
         margin-bottom: 20px;
     }
@@ -1463,5 +1573,5 @@ margin-bottom: 30px;
     .headline-features {
         margin-bottom: 20px;
     }
-    
+
 }
