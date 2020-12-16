@@ -1,7 +1,6 @@
 let mobileMenuBtn = document.querySelector(".nav-mobile-menu");
 let mobileMenu = document.querySelector(".nav-header")
 let elNav = document.querySelector(".list-header")
-console.log(elNav)
 
 mobileMenuBtn.addEventListener("click", activeMenu)
 
@@ -14,8 +13,8 @@ function activeMenu() {
         mobileMenu.classList.add("active-menu")
     }
 }
-mobileMenu.addEventListener("click",function (e) {
-    if (e.target == mobileMenu || e.target == elNav ) {
+mobileMenu.addEventListener("click", function (e) {
+    if (e.target == mobileMenu || e.target == elNav) {
         mobileMenu.classList.remove("active-menu")
         mobileMenuBtn.classList.remove("active-menu")
     }
